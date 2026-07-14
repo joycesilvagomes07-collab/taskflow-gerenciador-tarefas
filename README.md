@@ -1,2 +1,17 @@
-# taskflow-gerenciador-tarefas
-Aplicação web de gerenciamento de tarefas desenvolvida com HTML, CSS e JavaScript, com controle de prioridades, status e armazenamento local.
+# TaskFlow - Gerenciador de Tarefas
+
+Aplicação web desenvolvida com HTML, CSS e JavaScript.
+
+## Funcionalidades
+
+✔ Cadastro de tarefas
+✔ Definição de prioridades
+✔ Marcação de tarefas concluídas
+✔ Armazenamento local
+
+## Tecnologias
+
+- HTML5
+- CSS3
+- JavaScript
+  
