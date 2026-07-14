@@ -1,0 +1,102 @@
+<<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TaskFlow - Gerenciador de Tarefas</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<header>
+
+    <h1>✅ TaskFlow</h1>
+
+    <p>Organize suas tarefas de forma simples e eficiente</p>
+
+</header>
+
+
+
+<main class="container">
+
+
+    <section class="card cadastro">
+
+
+        <h2>Nova Tarefa</h2>
+
+
+        <input 
+            type="text" 
+            id="tarefa"
+            placeholder="Digite sua tarefa..."
+        >
+
+
+        <select id="prioridade">
+
+            <option value="Baixa">
+                Prioridade Baixa
+            </option>
+
+            <option value="Média">
+                Prioridade Média
+            </option>
+
+            <option value="Alta">
+                Prioridade Alta
+            </option>
+
+        </select>
+
+
+        <button onclick="adicionarTarefa()">
+            Adicionar Tarefa
+        </button>
+
+
+    </section>
+
+
+
+
+    <section class="card">
+
+
+        <div class="topo-lista">
+
+            <h2>Minhas Tarefas</h2>
+
+            <span id="contador">
+                0 tarefas
+            </span>
+
+        </div>
+
+
+        <ul id="listaTarefas"></ul>
+
+
+    </section>
+
+
+
+</main>
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
